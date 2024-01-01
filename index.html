@@ -9,15 +9,25 @@
 </head>
 
 <body>
-  <h3 id="Coins">You have 0 coins</h3>
-  <div><button id="+1"> Click me for +1 </button></div>
+
+  <div class="container">
+    <div class="left-column">
+      <h1 id="Coins">You have 0 coins</h1>
+      <h3 id="coins_per_second">0 coins per second</h3>
+      <button id="one" class="manual"> Click me for +1 </button>
+    </div>
+
+    <div class="right-column">
+      <button id="one_per_second" class="clickers"> +1 per second Cost: 10</button>
+      <button id="5_per_second" class="clickers"> +5 per second Cost: 100</button>
+      <button id="20_per_second" class="clickers"> +20 per second Cost: 750</button>
+      <button id="100_per_second" class="clickers"> +100 per second Cost: 5000</button>
+      <button id="1000_per_second" class="clickers"> +1000 per second Cost: 75000</button>
+      
+    </div>
   
-  <div><button id="+1/s"> +1 per second Cost: 10</button></div>
-  <div><button id="+5/s"> +5 per second Cost 50</button></div>
-  
+  </div>
   <script src="script.js"></script>
-
-
 </body>
 
 </html>
